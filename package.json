@@ -3,7 +3,7 @@
   "private": true,
   "packageManager": "npm@10.5.0",
   "scripts": {
-    "build": "echo 'Skipping Flutter build on Vercel; build/web must be committed'",
+    "build": "mkdir -p web && printf '<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Orbit</title></head><body><div id=\"orbit-root\"></div><noscript>JavaScript required.</noscript></body></html>' > web/index.html",
     "dev": "flutter run -d chrome",
     "clean": "flutter clean"
   }
