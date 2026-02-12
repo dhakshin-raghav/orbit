@@ -1,6 +1,0 @@
-{
-  "framework": "other",
-  "buildCommand": "npm run build",
-  "outputDirectory": "web",
-  "installCommand": "npm install"
-}
