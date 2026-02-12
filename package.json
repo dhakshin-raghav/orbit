@@ -1,0 +1,10 @@
+{
+  "name": "orbit",
+  "private": true,
+  "packageManager": "npm@10.5.0",
+  "scripts": {
+    "build": "echo 'Skipping Flutter build on Vercel; build/web must be committed'",
+    "dev": "flutter run -d chrome",
+    "clean": "flutter clean"
+  }
+}
